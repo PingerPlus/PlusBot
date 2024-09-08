@@ -1,3 +1,3 @@
 rootProject.name = "PlusBot"
 
-include("commons")
+include("common")
