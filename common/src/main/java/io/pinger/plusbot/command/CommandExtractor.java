@@ -19,7 +19,6 @@ public class CommandExtractor {
      * @param handler the handler
      * @param parent the parent command
      */
-
     public void extractCommands(Object handler, BaseCommand parent) {
         for (final Method method : handler.getClass().getMethods()) {
             if (!method.isAnnotationPresent(Subcommand.class)) {
